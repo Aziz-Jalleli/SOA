@@ -20,7 +20,7 @@ import com.pi.restaurantservice.service.MenuService;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/api/restaurants/{restaurantId}/menus")
+@RequestMapping("/restaurants/{restaurantId}/menus")
 public class MenuController {
 
 	private final MenuService menuService;

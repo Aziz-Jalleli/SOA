@@ -21,7 +21,7 @@ import com.pi.restaurantservice.service.RestaurantService;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/api/restaurants")
+@RequestMapping("/restaurants")
 public class RestaurantController {
 
 	private final RestaurantService restaurantService;

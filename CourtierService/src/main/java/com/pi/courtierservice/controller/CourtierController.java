@@ -24,7 +24,7 @@ import com.pi.courtierservice.service.CourtierService;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/api/courtiers")
+@RequestMapping("/courtiers")
 public class CourtierController {
 
 	private final CourtierService courtierService;
